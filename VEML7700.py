@@ -1,4 +1,5 @@
 '''此文件是含寄存器的I2C设置类的标准写法，要点有枚举类型，命令码，掩码'''
+# Thanks for https://github.com/tedyapo/arduino-VEML7700
 
 from machine import SoftI2C,Pin
 from collections import namedtuple
